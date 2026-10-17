@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.connecttag.libs.kotlin"
-version = "1.0.2"
+version = "1.0.4"
 
 android {
     namespace = "org.connecttag.lib.update"
@@ -61,7 +61,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "org.connecttag.libs.kotlin"
                 artifactId = "update-play-lib"
-                version = "1.0.2"
+                version = "1.0.4"
 
                 pom {
                     name.set("ConnectTag Update Play Lib")
